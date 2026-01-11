@@ -68,6 +68,37 @@ body {
   background: #ff77e9;
   color: #fff;
 }
+/* tools */
+ .tools{
+   display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+ }
+ .tools span{
+   font-size: 20px;
+   font-family: sans-serif;
+
+ }
+ .tools h6{
+  
+    color: #7e6f6f;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #ddd;
+    transition: 0.3s;
+ }
+ .tools h6:hover{
+    background-color: #ccaacf;
+    border-color: #bbb;
+ }
+ .hero1{
+  padding-top:120px;
+  padding-bottom: 10px;
+ }
+ 
 
 /* Hero Section */
 .hero {
@@ -104,6 +135,9 @@ body {
   
   font-style: italic;
 }
+.text h3{
+  font-family: sans-serif;
+}
 #typewriter {
    display: inline;
   vertical-align: baseline;
@@ -119,7 +153,57 @@ body {
     border-color: transparent;
   }
 }
+/* Slider Container */
+.logo-slider {
+     width: 100%;
+    max-width: 1100px;       /* slider width */
+    margin: 40px auto;       /* centers it */
+    overflow: hidden;
+    background: transparent;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
 
+/* Logo Track: continuous scrolling */
+.logo-track {
+    display: flex;
+    width: calc(200px * 14);  /* total logos * width */
+    animation: scroll 18s linear infinite;
+}
+
+/* Logos */
+.logo-track img {
+    width: 120px;
+    height: 50px;
+    margin: 0 25px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.logo-track img:hover {
+    transform: scale(1.1);
+}
+
+/* Keyframes for animation */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .logo-track img {
+        width: 80px;
+        margin: 0 15px;
+    }
+  }
 
 
 /* Typing animation */
@@ -248,7 +332,7 @@ body {
   margin-top: 40px;
   padding: 20px;
   border-radius: 6px;
-   background-image: ;
+  
 }
 
 .what-i-do h3 {
@@ -487,6 +571,7 @@ footer {
   color: #ccc;
   margin-top: 50px;
 }
+
 
 /* Responsive */
 @media (max-width: 900px) {
