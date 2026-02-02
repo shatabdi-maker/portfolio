@@ -569,11 +569,11 @@ body {
    .info h3{ margin:0; font-size:1.05rem; letter-spacing:0.2px; }
   .info p{ margin:0; color:var(--muted); font-size:0.92rem; line-height:1.4; }
 
-a.link {
+.link {
     color: white;
 }
 a.link:hover {
-    border-bottom: 2px solid radial-gradient(circle at top left, #0b0018, #0b0018);
+    border-bottom: 2px solid radial-gradient(circle at top left, #0b0018, #0b0018) !important;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 
@@ -675,6 +675,7 @@ footer {
   }
 
 }
+
 
 
 
