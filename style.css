@@ -571,24 +571,13 @@ body {
 
 .link {
   color: white;
-  position: relative;
-  text-decoration: none;
 }
 
-.link::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -4px;
-  width: 0;
-  height: 3px;
-  background: #0b0018; /* gradient চাইলে এখানে দাও */
-  border-radius: 5px;
-  transition: width 0.3s ease;
-}
 
-.link:hover::after {
-  width: 100%;
+
+.link:hover {
+  border-bottom: 2px solid red !important;
+  
 }
 
 
@@ -688,6 +677,7 @@ footer {
   }
 
 }
+
 
 
 
