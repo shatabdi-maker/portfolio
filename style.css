@@ -614,6 +614,9 @@ footer {
     width: 100px;
     
   }
+ .about-image {
+  text-align: center;
+}
   .navbar ul {
     gap: 15px;
   }
@@ -677,6 +680,7 @@ footer {
   }
 
 }
+
 
 
 
