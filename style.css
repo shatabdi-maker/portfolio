@@ -365,6 +365,7 @@ body {
 .about-image {
   flex: 1;
   text-align: center;
+   margin-top: 91px;
 }
 
 .about-image .img-bg {
@@ -682,6 +683,7 @@ footer {
   }
 
 }
+
 
 
 
