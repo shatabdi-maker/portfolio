@@ -181,6 +181,10 @@ max-width: 100%;
    
   
 }
+.i-sli {
+    padding: -26px -53px;
+    margin: 18px -123px;
+}
 
 /* Logo Track: continuous scrolling */
 .logo-track {
@@ -692,7 +696,6 @@ footer {
     margin-top: -14px;
 }
 }
-
 
 
 
