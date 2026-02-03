@@ -120,7 +120,7 @@ max-width: 100%;
 }
 
 .hero .text {
-  max-width: 80%;
+  max-width: 67%;
   margin-top: 50px;
 }
 
@@ -137,6 +137,10 @@ max-width: 100%;
   margin-top: 15px;
   color: #ddd;
 }
+.i-sli{
+      margin: 40px -122px;
+}
+  
 
 .hero .buttons {
   margin-top: 25px;
@@ -182,7 +186,7 @@ max-width: 100%;
 .logo-track {
     display: flex;
     width: calc(200px * 14);  /* total logos * width */
-    animation: scroll 18s linear infinite;
+    animation: scroll 8s linear infinite;
 }
 
 /* Logos */
@@ -486,7 +490,7 @@ max-width: 100%;
 /* Services */
 .services {
   text-align: center;
-  padding: 150px 10%;
+  padding: 10px 10%;
 }
 
 .services .service-boxes {
@@ -512,7 +516,7 @@ max-width: 100%;
 /*project*/
 .projects {
   text-align: center;
-  padding: 60px 8%;
+  padding: 0px 8%;
   background: #0d0d0d;
   color: #fff;
 }
@@ -694,6 +698,7 @@ footer {
   }
 
 }
+
 
 
 
