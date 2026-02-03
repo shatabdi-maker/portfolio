@@ -576,7 +576,7 @@ body {
 
 
 .link:hover {
-  border-bottom: 2px solid red !important;
+  border-bottom: 2px solid white !important;
   
 }
 
@@ -632,7 +632,7 @@ footer {
 
 }
 
-@media (max-width: 575px) {
+@media (max-width: 430) {
   body {
   width: 462px;
 }
@@ -680,6 +680,7 @@ footer {
   }
 
 }
+
 
 
 
